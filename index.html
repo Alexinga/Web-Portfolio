@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Alex's Portfolio</title>
+</head>
+
+<body>
+    <header id="home" class="header">
+        <div class="navbar">
+            <img src="./img/Alex Pic.jpg" alt="logo" class="logo" data-aos="fade-left">
+            <!-- <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button> -->
+            <ul class="navbar-links" data-aos="fade-up">
+                <li><a class="navbar-link" href="#home">Home</a></li>
+                <li><a class="navbar-link" href="#about">About</a></li>
+                <li><a class="navbar-link" href="#projects">Projects</a></li>
+                <li><a class="navbar-link" href="#contact">Contact</a></li>
+            </ul>
+            <div class="ham-menu">
+                <span class="bars"></span>
+                <span class="bars"></span>
+                <span class="bars"></span>
+            </div>
+        </div>
+    </header>
+    <section id="hero-page">
+        <div class="hero-container">
+            <div class="social-content" data-aos="fade-up" data-aos-duration="2500">
+                <i class="far fa-envelope"></i>
+                <i class="fab fa-twitter"></i>
+                <a href="https://github.com/Alexinga"><i class="fab fa-github"></i></a>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+            <div class="text-content" data-aos="fade-right" data-aos-duration="2500">
+                <h1>HEY, I'M ALEX INGA</h1>
+                <p>A Junior Frontend focused Web Developer building the Frontend of Websites and Web Application</p>
+                <button class="btn btn-hero">PROJECTS</button>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="section-header" data-aos="zoom-in">
+            <h2>ABOUT ME</h2>
+            <p>Here you will find information about what i do, and my current skills mostly in terms of programming and
+            technology</p>
+        </div>
+        <div class="about-container" data-aos="fade-in">
+            <div class="about-content" data-aos="fade-right">
+                <h3>Get to know me!</h3>
+                <p class="about-paragraph">I'm a <strong>Junior Frontend Web Developer</strong> who is self taught and passionate about creating websites and web application. I love to learn, and apply new technologies to my projects. Check out some of my
+                    work in the <strong>Projects</strong> section.</p>
+                <p class="about-paragraph">I currently live in <strong>West Chester, Pennsylvania</strong> and a first generation American. When I have free time I enjoy going to the gym, playing my classical guitar, and lastly <strong>Coding</strong>. I continue to improve myself as a developer, and work hard to achieve a perfect website and or web application.</p>
+                <p class="about-paragraph">I'm open to <strong>Job</strong> opportunities where I can contribute, learn,
+                    and grow. If you have a good opportunity that matches my skills and experience then don't hesitate
+                    to <strong>Contact</strong> me.</p>
+                <button type="button" class="btn btn-about">CONTACT</button>
+            </div>
+            <div class="about-content-2" data-aos="fade-left">
+                <h3>My Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>GIT</li>
+                    <li>RESPONSIVE DESIGN</li>
+                    <li>ES6</li>
+                </ul>
+                <h3>Education</h3>
+                <p>Delaware County Community College</p>
+                <ul>
+                    <li>Associates in Computer Science</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="section-header" data-aos="fade-down">
+            <h2>PROJECTS</h2>
+            <p>Here you will find some of the personal projects that I created with each project containing
+                its own description
+            </p>
+        </div>
+        <div class="projects-container">
+            <div class="project-content" data-aos="zoom-in">
+                <img src="../img/2021-12-14 (2).png" alt="project-pic-1">
+                <h2>Travel Agency</h2>
+                <p>I created a travel agency website from scratch using HTML, SASS, and JS. This website is responsive to mobile phone, and has animation with a library that i used called AOS. Along with interactive features from JS</p>
+                <a href="https://github.com/Alexinga/Travel-Agency">Show More</a>
+            </div>
+            <div class="project-content" data-aos="zoom-in">
+                <img src="../img/2021-12-14 (3).png" alt="project-pic-2">
+                <h2>Real Estate</h2>
+                <p>This real estate website was created from the ground up using HTML, CSS, and JS. This website is responsive to mobile. Along with some JS features</p>
+                <a href="https://github.com/Alexinga/Real-Estate">Show More</a>
+            </div>
+            <div class="project-content" data-aos="zoom-in">
+                <img src="../img/2021-12-14 (4).png" alt="project-pic-3">
+                <h2>Wedding Planner</h2>
+                <p>This is my very first website I created and focused on designing. I used HTML, CSS, and JS. This website is responsive to mobile.</p>
+                <a href="https://github.com/Alexinga/WeddingPlanner">Show More</a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="section-header" data-aos="fade-up">
+            <h2>CONTACT</h2>
+            <p>Feel free to contact me by submitting the form below and I will get back to you as soon as possible</p>
+        </div>
+        <form class="form">
+            <div class="form-container" data-aos="fade-in">
+                <div class="form-group">
+                    <label for="name">Name</label> 
+                    <input type="text" id="name" name="name" placeholder="Enter Your Name">
+                    <small></small>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email">
+                    <small></small>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Enter Your Message" class="row"
+                        rows="7"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-form">Submit</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <section id="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <h3>ALEX INGA</h3>
+                <p>A Frontend focused Web Developer building the Frontend of Websites and Web Application that leads to
+                    the success of the overall product</p>
+            </div>
+            <div class="footer-social">
+                <h3>SOCIAL</h3>
+                <i class="far fa-envelope"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-github"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+        <div class="owner">
+            <p>&copy; copyright 2021 Made by Alex Inga</p>
+        </div>
+    </section>
+    <script src="./js/tool.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            duration: 2000,
+        });
+    </script>
+</body>
+
+</html>
