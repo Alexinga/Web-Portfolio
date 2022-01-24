@@ -340,7 +340,8 @@ img {
     color: white;
 }
 .footer-social i {
-    padding: 0.2rem
+    padding: 0.2rem;
+    color: var(--white-color);
 }
 .owner {
     color: white;
