@@ -261,10 +261,13 @@ img {
     color: var(--white-color);
 }
 /*Contact Page*/
+#contact {
+    background: var(--secondary-color);
+}
 .form {
     display: flex;
     justify-content: center;
-    background: var(--secondary-color);
+    
 }
 .form-container {
     border: var(--main-color) 1px solid;
@@ -273,7 +276,7 @@ img {
     width: 60rem;
     display: flex;
     flex-direction: column;
-    margin-top: 6rem;
+    margin-top: 1rem;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 6rem;
