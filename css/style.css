@@ -267,7 +267,7 @@ img {
 .form {
     display: flex;
     justify-content: center;
-    
+
 }
 .form-container {
     border: var(--main-color) 1px solid;
