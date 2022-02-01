@@ -356,6 +356,9 @@ img {
 }
 /*Responsive Design*/
 @media screen and (max-width: 685px) {
+    .navbar {
+        justify-content: space-evenly;
+    }
     .navbar-links {
         display: none;
         flex-direction: column;
