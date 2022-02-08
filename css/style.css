@@ -36,6 +36,9 @@ img {
     max-width: 100%;
 }
 /*NAVBAR*/
+#home {
+    position: relative;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
