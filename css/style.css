@@ -81,7 +81,7 @@ a {
 .bars {
   background: var(--black-color);
   height: 5px;
-  width: 35px;
+  width: 25px;
   display: block;
   margin: 6px 0;
   transition: all 0.3s ease-in;
