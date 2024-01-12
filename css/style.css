@@ -46,11 +46,11 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem;
+  padding: 0.5rem 1rem;
 }
 .logo {
   border-radius: 50%;
-  height: 7rem;
+  height: 4rem;
 }
 .navbar-links {
   display: flex;
